@@ -1,0 +1,118 @@
+
+<?php
+
+if(isset ($_COOKIE['contador'])){
+  setcookie('contador', $_COOKIE['contador']+1, time()+365*24*60*60);
+  echo "Numero de Visitas: ".$_COOKIE['contador'];
+
+}
+
+
+?>
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<title>Programación Web 2</title>
+</head>
+<body>
+
+
+
+
+
+<div id="encabezado">
+	<img class="redes" src="images/facebook-square-brands.svg">
+  <img class="redes" src="images/twitter-brands.svg">
+  <img class="redes" src="images/google-brands.svg">
+
+
+</div>
+
+
+<header>
+      <div class="contenedor">
+        <div id="marca">
+        	<CENTER>
+          <h1><span class="resaltado">Programación Web 2 </span>Lineamientos de un proyecto web completo</h1>
+          </CENTER>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li class="actual"><a href="lecturas.html">LECTURAS</a></li>
+            <li><a href="multimedia.html">MULTIMEDIA</a></li>
+             <li><a href="actividades.html">ACTIVIDADES</a></li>
+             <li><a href="autores.html">AUTORES</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+<div class="slider">
+  <ul>
+  <li> <img src="images/educacion_unad.jpg"></li>  
+  <li> <img src="images/diseño.jpg"></li> 
+  <li> <img src="images/web.png"></li> 
+<li> <img src="images/unad.jpg"></li> 
+  </ul>
+</div>
+
+
+
+
+<div id="articulo">
+
+<section id="principal">
+      <div class="contenedor1">
+        <h1>ETAPAS DEL DESARROLLO WEB</h1>
+        <p>Las etapas de desarrollo de un proyecto web abarcan diversas especialidades y temáticas, por lo que seguir un plan estratégico y de ejecución es vital para conseguir un resultado óptimo. Como en muchas otras disciplinas, la planificación y la organización permiten que el producto final sea lo mas eficaz y funcional posible de acuerdo  a lo que se tenia proyectado inicialmente.</p>
+      </div>
+
+      </section>  
+
+
+<section id="objseccion">
+      <div class="contenedor2">
+        <h1>Objetivos de la sección</h1>
+        <p>Tener claridad sobre las etapas que contiene la ejecución de un proyecto web y los beneficios de seguir un paso a paso para cumplir el objetivo trazado desde el inicio.</p>
+      </div>
+      </section>
+
+    <section id="cabecera">
+      <div class="contenedor3">
+        <h1>Objetivos del OVI</h1>
+        <p>Realizar y comprender las fases de implementación de un proyecto web a través de distintas etapas, en donde se debe llevar un orden y unas pautas a seguir para dar un óptimo cumplimiento al objetivo proyectado desde el inicio.</p>
+      </div>
+
+      <section>        
+          <h3>Objetivo 1</h3>
+          <p>Realizar un análisis sobre el entorno en el cual se va a implantar la solución.</p>
+    </section>
+
+    <section>   
+          <h3>Objetivo 2</h3>
+          <p>Diseñar un plan que supla con las necesidades del proyecto web.</p>
+        <section>
+          
+          <h3>Objetivo 3</h3>
+          <p>Implementar satisfactoriamente el proyecto web para posicionarse en lo más alto del mercado.</p>
+    </section>
+
+    </section>
+
+</section>
+</div>
+      
+
+    <footer>
+
+      <p>Fases de un proyecto web completo S.A.S, Bogotá D.C - Colombia.<br>Contactenos (+57)2457829, dirección Transversal 31 # 12 - 38 sur<br>Universidad Nacional Abierta y a Distancia.</p>
+    </footer>
+</body>
+</html>
